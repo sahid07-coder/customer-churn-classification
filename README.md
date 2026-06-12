@@ -1,40 +1,45 @@
 # Customer Churn Classification
 
-This project analyzes customer churn data to predict whether a customer will churn or not. It involves data exploration, preprocessing, and building and evaluating several classification models.
+## Overview
+This machine learning project predicts whether a telecom customer is likely to churn based on customer demographics, account information, and service usage.
 
-## Environment Setup
+## Features
+- Data preprocessing
+- Exploratory data analysis
+- Model training and evaluation
+- Cross-validation
+- Feature importance analysis
+- ROC Curve comparison
 
-1.  **Clone the repository or download the files.**
+## Models Used
+- Logistic Regression
+- Random Forest
+- Gradient Boosting
 
-2.  **Create a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    ```
+## Technologies
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
+- Seaborn
 
-3.  **Activate the virtual environment:**
-    *   On Windows:
-        ```bash
-        .\venv\Scripts\activate
-        ```
-    *   On macOS/Linux:
-        ```bash
-        source venv/bin/activate
-        ```
+## Results
+The models were evaluated using:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC
 
-4.  **Install the required packages:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+Best performing model: Random Forest
 
-## How to Run
+## Files
+- Customer_Churn_Classification.ipynb
+- customer_churn_data.csv
+- project_documentation.md
+- requirements.txt
+- models_performance_comparison.png
 
-1.  **Start Jupyter Notebook or JupyterLab:**
-    ```bash
-    jupyter notebook
-    ```
-    or
-    ```bash
-    jupyter lab
-    ```
-
-2.  **Open and run the `Customer_Churn_Classification.ipynb` notebook.**
+## Author
+Sahid
